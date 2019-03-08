@@ -20,9 +20,9 @@ Node v10.12.0
 
 ## Quick Start
 
-\$ yarn or npm install
+$ npm install
 
-\$ yarn or npm start or node mailer.js
+$ npm start or node mailer.js
 
 ## 참고 사항
 
