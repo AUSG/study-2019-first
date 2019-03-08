@@ -1,0 +1,16 @@
+{
+  "name": "node_mailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mailer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mailer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^4.6.8"
+  }
+}
