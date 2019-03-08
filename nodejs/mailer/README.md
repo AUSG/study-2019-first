@@ -1,6 +1,6 @@
-# Mailer
+# 노드에서 간단한 모듈을 사용해봅시다~
 
-## What is Mailer?
+## What is Nodemailer?
 
 Nodemailer는 이메일 인증, 비밀번호 변경 인증 메일 등 다양한 용도로 쓰이는 모듈입니다.
 
