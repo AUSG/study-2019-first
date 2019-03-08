@@ -2,7 +2,7 @@ const nodemailer = require("nodemailer");
 
 nodemailer.createTestAccount((err, account) => {
   let transporter = nodemailer.createTransport({
-    /* host: "smtp.ethereal.email", // 본인이 사용하는 smtp 메일서버가 있다면 사용할 수 있습니다.
+    /* host: "smtp.ethereal.email", // 본인이 사용하는 SMTP 메일서버가 있다면 사용할 수 있습니다.
     port: 587,
     secure: false, // true for 465, false for other ports
     */
