@@ -16,7 +16,7 @@ nodemailer.createTestAccount((err, account) => {
   });
 
   // 발송할 사용자 정보 관리
-  let mails = [
+  let mailList = [
     {
       name: "",
       email: ""
@@ -29,7 +29,7 @@ nodemailer.createTestAccount((err, account) => {
   ];
 
   let sendBox = () => {
-    for (const mail of mails) {
+    for (const mail of mailList) {
       let settings = {
         from: "", // Sender Email, Gmail은 위조 불가
         to: mail.email,
@@ -45,7 +45,7 @@ nodemailer.createTestAccount((err, account) => {
         if (err) {
           return console.log(err);
         }
-        console.log("Message sent: %s", res.messageId);
+        console.log("Message sent: %s", res.accepted);
       });
     }
   };
