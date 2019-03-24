@@ -38,7 +38,7 @@ Body(x-www-form-urlenceded)
 
 ## 개선사항
 
-- Front-end 연결
+- Front-end
 - User Session 추가
 - JWT 적용
 - AWS Deploy
