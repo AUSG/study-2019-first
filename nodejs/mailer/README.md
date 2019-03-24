@@ -29,3 +29,7 @@ $ npm start or node mailer.js
 gmail 계정으로 메일을 보낼 경우 [해당 링크](https://myaccount.google.com/lesssecureapps)에서 보안 수준이 낮은 앱 액세스를 ON해야 합니다.
 
 > 보안 수준이 낮아지기 때문에 추천드리지 않습니다.
+
+## 원본 프로젝트 (개선 중)
+
+https://github.com/sangyeol-kim/likelion_mailer
