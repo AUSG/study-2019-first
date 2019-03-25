@@ -2,7 +2,7 @@
 
 ## 정보
 
-해당 API는 [Node.js](https://nodejs.org/)와 [MongoDB](https://www.mongodb.com/)를 이용한 CRUD 프로그램입니다.
+해당 API는 [Node.js](https://nodejs.org/)와 [MongoDB](https://www.mongodb.com/)를 이용한 CRUD API입니다.
 
 > API를 사용하기 위해서는 Node.js와 MongoDB 설치가 필요합니다.
 
