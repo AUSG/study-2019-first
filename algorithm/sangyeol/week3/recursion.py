@@ -15,8 +15,8 @@ def pick(n, picked, to_pick):
     else:
         smallest = picked[-1] + 1
     # 배열을 채우고 n까지 append, recursive, pop
-    for next in range(smallest, n):
-        picked.append(next)
+    for var in range(smallest, n):
+        picked.append(var)
         pick(n, picked, to_pick-1)
         picked.pop()
 
