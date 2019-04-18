@@ -1,6 +1,6 @@
 # n=7일 때 (0,1,2,3), (0,1,2,4) ~ (3,4,5,6)
 
-# Nested For 구현
+# Nested For
 
 
 def function(n):
@@ -11,8 +11,3 @@ def function(n):
           print(i, j, k, l)
 
 function(7)
-
-
-def function(n):
-  if(n==0):
-    return 0
